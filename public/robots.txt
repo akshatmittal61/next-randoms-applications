@@ -11,4 +11,4 @@ Disallow: /includes/
 Disallow: /modules/
 Allow: /
 
-Sitemap: https://next-ts-full-stack-template.vercel.app/sitemap.xml
+Sitemap: https://akuma61-randmons.vercel.app/sitemap.xml

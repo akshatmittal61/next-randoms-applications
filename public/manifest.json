@@ -4,9 +4,9 @@
 	"display": "standalone",
 	"scope": "/",
 	"start_url": "/",
-	"name": "Next TS Full Stack Template",
-	"short_name": "Next Template",
-	"description": "Next Full Stack Template with TypeScript, Tailwind CSS, and Zustand, SASS, and PWA",
+	"name": "Akuma Randoms",
+	"short_name": "Akuma Randoms",
+	"description": "Akuma Randoms Application",
 	"icons": [
 		{
 			"src": "/favicon-192.png",
