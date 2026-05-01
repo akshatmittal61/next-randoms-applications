@@ -19,7 +19,8 @@ const GoldmanSachsCompanyInterviewResources: React.FC = () => {
 		trigger({
 			company: "goldman-sachs",
 		});
-	}, [trigger]);
+		// eslint-disable-next-line react-hooks/exhaustive-deps
+	}, []);
 
 	return (
 		<Page
@@ -27,6 +28,11 @@ const GoldmanSachsCompanyInterviewResources: React.FC = () => {
 			description="Explore comprehensive interview preparation resources for Goldman Sachs, including detailed insights into their interview process, essential topics, and practical guidance to help you ace your interview."
 			canonicalLink="https://www.randoms.in/resources/interview-prep/companies/goldman-sachs"
 			className={classes("")}
+			seo={{
+				title: "Goldman Sachs Interview Preparation",
+				description:
+					"Explore comprehensive interview preparation resources for Goldman Sachs, including detailed insights into their interview process, essential topics, and practical guidance to help you ace your interview.",
+			}}
 		>
 			<Typography
 				className="text-center w-full mb-12"
