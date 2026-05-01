@@ -11,4 +11,4 @@ Disallow: /includes/
 Disallow: /modules/
 Allow: /
 
-Sitemap: https://akuma61-randmons.vercel.app/sitemap.xml
+Sitemap: https://akuma61-randoms.vercel.app/sitemap.xml
