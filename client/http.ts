@@ -131,6 +131,9 @@ export class HttpWrapper {
 		try {
 			const startTime = Date.now();
 			let response!: AxiosResponse<T, D, H>;
+			Logger.debug(`${method} ${url}`);
+			Logger.debug("config", config);
+			Logger.debug("data", data);
 			if (method === apiMethods.GET) {
 				response = await this.http.get<T, AxiosResponse<T, D, H>, D>(
 					url,

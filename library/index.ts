@@ -9,4 +9,5 @@ export * as Loader from "./Loader";
 export * from "./Multimedia";
 export * from "./Pane";
 export * from "./Popup";
+export * from "./Table";
 export * from "./Typography";

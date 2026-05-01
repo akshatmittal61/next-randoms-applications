@@ -4,7 +4,7 @@ import { ApiRequest, ApiResponse } from "@/types";
 import { getSearchParam, StringUtils } from "@/utils";
 
 export class ResourcesController {
-	public static async readInterviewPrepResources(
+	public static async readCompanyInterviewPrepResources(
 		req: ApiRequest,
 		res: ApiResponse
 	) {

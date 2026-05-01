@@ -1,0 +1,11 @@
+@import "@/styles/pages/mixins";
+
+.company-interview {
+	padding: 24px;
+	&-md {
+		@include markdown-styles;
+	}
+	table {
+		overflow-x: auto;
+	}
+}

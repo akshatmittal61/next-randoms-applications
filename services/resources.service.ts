@@ -77,8 +77,8 @@ export class ResourcesService {
 					acceptance: item.Acceptance,
 					difficulty: item.Difficulty,
 					frequency: item.Frequency,
-					link: item.Link,
-					topics: item?.topics || [],
+					link: item["Leetcode Question Link"],
+					topics: [],
 				};
 			});
 
