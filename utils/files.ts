@@ -1,4 +1,5 @@
 import { FileContentType, FileExtension } from "@/types";
+import Papa from "papaparse";
 
 export const fileExtensions = new Map<FileExtension, FileContentType>([
 	["txt", "text/plain"],
@@ -98,4 +99,13 @@ export const jsonToCsv = (json: any[]) => {
 export const exportAsCSV = (data: any[], name: string) => {
 	const csv = jsonToCsv(data);
 	saveFile(csv, name, "csv");
+};
+
+export const csvToJson = (csv: string) => {
+	const parsed = Papa.parse(csv, {
+		header: true,
+		skipEmptyLines: true,
+	});
+
+	return parsed.data;
 };
