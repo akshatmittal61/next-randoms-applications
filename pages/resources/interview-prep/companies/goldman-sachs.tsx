@@ -19,7 +19,7 @@ const GoldmanSachsCompanyInterviewResources: React.FC = () => {
 		trigger({
 			company: "goldman-sachs",
 		});
-	}, []);
+	}, [trigger]);
 
 	return (
 		<Page
